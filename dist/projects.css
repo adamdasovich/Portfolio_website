@@ -1,0 +1,48 @@
+.projects-main-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 1;
+  }
+
+.projects-main-section .covers-image {
+	width: 30vw;
+	margin-left: 2rem;
+	height: auto;
+	max-width: 350px;
+}
+
+.icon-section {
+	display: flex;
+}
+
+.icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: .5rem;
+	padding: .75rem;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	margin-bottom: 2rem;
+}
+
+.icon img {
+	width: 40px;
+}
+
+@media (max-width: 800px) {
+	.projects-main-section {
+	  flex-direction: column;
+	  justify-content: center;
+	}
+  
+	.projects-main-section .covers-image {
+	  margin-top: 2rem;
+	  height: 30vh;
+	  width: auto;
+	}
+  }
+
