@@ -16,8 +16,8 @@
   .home-main-section .lady-image {
 	background-image: url(images/bear.png);
 	flex-grow: 1;
-	max-height: 70vh;
-	min-width: 30vw;
+	max-height: 40vh;
+	min-width: 20vw;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom left;
