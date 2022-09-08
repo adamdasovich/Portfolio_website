@@ -22,29 +22,26 @@
 			</ul>
 		</nav>
 	</header>
-	<section class="join-main-section">
-		<h1 class="join-text">Join the
-			<span class="accent-text">Experience.</span>
-		</h1>
-		<form class="join-form">
-			<div class="input-group">
-			  <label>Name:</label>
-			  <input type="text">
-			</div>
-			<div class="input-group">
-			  <label>Email:</label>
-			  <input type="email">
-			</div>
-			<div class="input-group">
-			  <label>Password:</label>
-			  <input type="password">
-			</div>
-			<div class="input-group">
-			  <button type="submit" class="btn">Join Now</button>
-			</div>
-		  </form>
+	<div class="full-screen-container">
+		<div class="login-container">
+			<h1 class="login-title">Welcome</h1>
+			<form class="form">
+				<div class="input-group success">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email">
+					<span class="msg">Valid email</span>
+				</div>
+				<div class="input-group error">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password">
+					<span class="msg">Incorrect Password</span>
+				</div>
+				<button type="submit" class="login-button">
+					Login
+				</button>
+			</form>
+		</div>
 	</div>
-
 	<footer class="main-footer">
 		<div class="container">
 			<nav class="footer-nav">

@@ -9,12 +9,3 @@ function blooming() {
 }
 image.addEventListener('click', blooming)
 
-
-function rotate(element, event) {
-	if (event.target.id === 'rotate-left') {
-		rotation - 15
-	} else {
-		rotation + 15
-	}
-	element.style.transform = `rotate(${rotation}deg)`
-}
