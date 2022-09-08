@@ -1,10 +1,11 @@
-let image = document.getElementById('myImage')
-let colorButton = document.getElementById('color-button')
-let wheelButton = document.getElementById('crazy-button')
+let image = document.getElementById('bear')
+const rotateLeftButton = document.getElementById('rotate-left')
+const rotateRightButton = document.getElementById('rotate-right')
+
+let rotation = 0
 
 function blooming() {
-	image.src.match('dog.png') ? image.src = './images/THC-CHAIN.png' : image.src = './images/dog.png'
+	image.src.match('Heart.png') ? image.src = './images/bear.png' : image.src = './images/Heart.png'
 }
 image.addEventListener('click', blooming)
-
 
