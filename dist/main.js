@@ -1,11 +1,19 @@
 let image = document.getElementById('bear')
-const rotateLeftButton = document.getElementById('rotate-left')
-const rotateRightButton = document.getElementById('rotate-right')
-
-let rotation = 0
+let dog = document.getElementById('dog')
 
 function blooming() {
 	image.src.match('Heart.png') ? image.src = './images/bear.png' : image.src = './images/Heart.png'
 }
 image.addEventListener('click', blooming)
+
+
+let rotateDeg = 0;
+
+function rotate() {
+	rotateDeg = rotateDeg + 20
+	dog.style.transform = `rotate(${rotateDeg}deg)`
+}
+dog.addEventListener('click', rotate);
+
+
 
