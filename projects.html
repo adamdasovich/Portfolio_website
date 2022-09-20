@@ -7,6 +7,7 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="projects.css" rel="stylesheet">
 	<title>Adam's Projects</title>
+	<script src="./main.js" defer></script>
 </head>
 <body class="full-height-grow">
 	<div class="container full-height-grow">
@@ -26,20 +27,23 @@
 		<div class="call-to-action">
 		  <h1 class="title">Check out my Projects</h1>
 		  <div class="icon-section">
-			<div class="icon">
-			  <img src="images/microphone.svg">
-			  Charts
+			<div class="icon"><a href="https://spoonacular4-production.up.railway.app">
+			  <img src="images/toast-wine-svgrepo-com.svg">
+			  Wine Pairing
+			</a> 
 			</div>
-			<div class="icon">
-			  <img src="images/albums.svg">
-			  Albums
+			<div class="icon"><a href="https://adams-proshop.onrender.com/">
+			  <img src="images/profits-svgrepo-com.svg">
+			  Pro Shopping
+			</a>
 			</div>
 			<div class="icon">
 			  <img src="images/more.svg">
 			  More
 			</div>
 		  </div>
-		  By joining you can benefit by listening to the latest albums released.
+		  <input type="number" id="amount" >
+		  <div id="paypal"></div>
 		</div>
 		<img id='bear' class="covers-image" src="./images/bear.png">
 		<img id='dog' class="dog" src="./images/clear_dog.png">
@@ -72,6 +76,5 @@
 			</nav>
 		</div>
 	</footer>
-<script src="main.js"></script>
 </body>
 </html>
